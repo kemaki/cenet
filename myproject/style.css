@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* initial setting
+----------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: #333;
+  font-family: Helvetica;
+  background: #fff;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2{
+	color:gray;
+	font-size: midium;
+	}
+
+p {
+  color: black;
+  line-height: 1.7;
+}
+
+a: link, a:visited {
+	color: #37c;	
+}
+a: hover {
+	color: #999;
+}
+
+section, article, aside, nav, header, footer, hgroup {
+	display: block;
+}
+
+/* framework
+-----------------------------------
+*/
+#page {
+	margin: 0 auto;
+	width: 900px;
+}
+#contents {
+	clear: both;
+}
+
+#content1 {
+	float: left;
+	width: 280px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#content2 {
+	float: left;
+	width: 280px;
+	margin: 0 30px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#content3 {
+	float: left;
+	width: 280px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#content4 {
+	clear: both;
+}
+#content4 {
+	float: left;
+	width: 280px;
+	margin: 10px 0;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#content5 {
+	float: left;
+	width: 280px;
+	margin: 10px 30px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+/* header
+-----------------------------------
+*/
+
+#logo {
+	display block;
+}
+#logo {
+	margin: 0 250px;
+}
+
+#title {
+	text-align: center;
+}
+
+/* navigation
+-----------------------------------
+*/
+nav ul {
+	overflow: hidden;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	line-height: 1.0;
+	background: url(image/li-bg.jpg) repeat-x bottom;
+}
+
+nav li, nav a {
+	display: block;
+}
+nav li {
+	float: left;	
+	border-right: 1px solid #ddd;
+}
+nav a {
+	padding: 15px 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	background: url(image/li-bg-hover.jpg) repeat-x bottom;	
+}
+
+nav #current a {
+	color: #333;
+	background: #fff;
+}
+
+
+/* sidebar
+-----------------------------------
+*/
+
+/* Footer
+-----------------------------------------
+*/
+footer {
+	clear: both;
+}
+
+footer	{
+	border-top: 1px solid #ccc;
+}
+footer section {
+	float: left;
+	width: 180px;
+}
+
+#copyright {
+	clear: both;
+}
+
+#copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #999;
+}
